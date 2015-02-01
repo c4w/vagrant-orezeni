@@ -1,0 +1,16 @@
+task :default => [:build]
+
+desc "Building jekyll"
+task :build do
+	sh "jekyll --no-auto"
+end
+
+desc "Building jekyll automatically"
+task :auto do
+	sh "jekyll --auto"
+end
+
+desc "Launch preview environment"
+task :preview do
+	sh "jekyll --server --auto"
+end
