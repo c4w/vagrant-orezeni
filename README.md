@@ -91,4 +91,4 @@ $ bundle exec rake auto
 
 ## Contributors
 
-* Initial code by @miya0001 at [Code for Wakayama](@codeforwakayama)
+* Initial code by [@miya0001](https://github.com/miya0001) at [Code for Wakayama](https://github.com/codeforwakayama)
