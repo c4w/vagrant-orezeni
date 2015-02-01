@@ -65,8 +65,6 @@ $ vagrant up
 
 「[税金はどこへ行った？](http://spending.jp/)」は、jekyllで作られていますので、ファイルを修正後にビルドする必要があります。
 
-GitHub上では`git push`すれば自動的にビルドされますが、ローカルでプレビューしながら作成したい場合には、以下のコマンドを実行する必要があります。
-
 ### Vagrantの仮想マシンにログイン
 
 まず仮想マシンにログインしてください。
@@ -90,5 +88,3 @@ $ bundle exec rake build
 $ cd /var/www/orezeni
 $ bundle exec rake auto
 ```
-
-
