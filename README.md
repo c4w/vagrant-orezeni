@@ -6,31 +6,31 @@
 
 ## Getting Started
 
-### VirtualBoxをインストール
+### 1. VirtualBoxをインストール
 
 以下のURLからVirtualBoxの最新版を入手してインストールしてください。
 
 [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
-### Vagrantをインストール
+### 2. Vagrantをインストール
 
 VirtualBoxのインストールが完了したらVagrantをインストールしてください。
 
 [https://www.vagrantup.com/](https://www.vagrantup.com/)
 
-### 「俺のゼニはどこ行った for 横浜」のGitHubプロジェクトをフォーク
+### 3. 「俺のゼニはどこ行った for 横浜」をフォーク
 
 「[俺のゼニはどこ行った for 横浜](https://github.com/spendingjp/orezeni.github.com)」のプロジェクトをフォークしてください。
 
 デフォルトではこのプロジェクトのリポジトリのURLが指定されていますので、とりあえずこのまま立ち上げていただいても構いません。
 
-### 任意のディレクトリにvagrant-orezeniをダウンロード
+### 4. 任意のディレクトリにvagrant-orezeniをダウンロード
 
 以下のURLから最新版を入手してください。
 
 [https://github.com/codeforwakayama/vagrant-orezeni/releases](https://github.com/codeforwakayama/vagrant-orezeni/releases)
 
-### VagrantfileにフォークしたプロジェクトのリポジトリのURLを記述
+### 5. Vagrantfileを修正
 
 本プロジェクトに含まれているVagrantfileをテキストエディター等で開いて、リポジトリのURLを先ほどフォークしたプロジェクトのURLに修正してください。
 
@@ -42,14 +42,14 @@ VirtualBoxのインストールが完了したらVagrantをインストールし
     }
 ```
 
-### 起動
+### 6. 起動
 
 ```
 $ cd vagrant-orezeni
 $ vagrant up
 ```
 
-### ブラウザでアクセス
+### 7. ブラウザでアクセス
 
 以下のURLにアクセスしてください。
 
@@ -65,7 +65,7 @@ $ vagrant up
 
 「[税金はどこへ行った？](http://spending.jp/)」は、jekyllで作られていますので、ファイルを修正後にビルドする必要があります。
 
-### Vagrantの仮想マシンにログイン
+### 1. Vagrantの仮想マシンにログイン
 
 まず仮想マシンにログインしてください。
 
@@ -73,7 +73,7 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-### jekyllのビルド
+### 2. jekyllのビルド
 
 SSHでログインしたら、「[税金はどこへ行った？](http://spending.jp/)」がインストールされているディレクトリに移動してからビルド用のコマンドを実行してください。
 
