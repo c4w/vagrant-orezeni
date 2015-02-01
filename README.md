@@ -88,3 +88,7 @@ $ bundle exec rake build
 $ cd /var/www/orezeni
 $ bundle exec rake auto
 ```
+
+## Contributors
+
+* Initial code by @miya0001 at [Code for Wakayama](@codeforwakayama)
