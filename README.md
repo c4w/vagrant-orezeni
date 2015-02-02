@@ -20,7 +20,7 @@ VirtualBoxのインストールが完了したらVagrantをインストールし
 
 ### 3. 「俺のゼニはどこ行った for 横浜」をフォーク
 
-「[俺のゼニはどこ行った for 横浜](https://github.com/spendingjp/orezeni.github.com)」のプロジェクトをフォークしてください。
+「[俺のゼニはどこ行った for 横浜](https://github.com/orezeni/orezeni.github.com)」のプロジェクトをフォークしてください。
 
 デフォルトではこのプロジェクトのリポジトリのURLが指定されていますので、とりあえずこのまま立ち上げていただいても構いません。
 
@@ -88,6 +88,13 @@ $ bundle exec rake build
 $ cd /var/www/orezeni
 $ bundle exec rake auto
 ```
+
+## セットアップ済みの環境
+
+* OS: Ubuntu
+* Webサーバー: Nginx 1.4.6 （アプリのビルド結果を、JekyllではなくNginxで配信しています。）
+* Ruby: 1.9.3
+* Jekyll: 0.12.0
 
 ## Contributors
 
